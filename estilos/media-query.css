@@ -9,11 +9,23 @@ Grandes telas: acima de 1200px;
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /*CONFIGURAÇÃO PARA TABLET*/
     body{
         background-image: linear-gradient(to top, #49a09d,#5f2c82 );
     }
     section#login{
         width: 80vw;
+        height: 300px;
+    }
+    div.campo > input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 45px);
+        transform: translateY(-11px);
+        height: 100%;
+        border: 0px;
+        border-radius:8px;
+        padding: 4px;
     }
     div#imagem{
         float: left;
@@ -26,11 +38,23 @@ Grandes telas: acima de 1200px;
     }
 }
 @media screen and (min-width: 992px){
+    /*CONFIGURAÇÃO PARA DESKTOP*/
     body{
         background-image: linear-gradient(to top, #49a09d,#5f2c82 );
     }
     section#login{
         width: 950px;
+        height: 360px;
+    }
+    div.campo > input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 45px);
+        transform: translateY(-11px);
+        height: 100%;
+        border: 0px;
+        border-radius:8px;
+        padding: 4px;
     }
     div#imagem{
         float: right;
